@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="342px" viewBox="0 0 512 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>united-kingdom</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="united-kingdom" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#F0F0F0" x="0" y="0.003" width="512" height="341.337"></rect>
+            <polygon id="Path" fill="#D80027" points="288 0 224 0 224 138.666 0 138.666 0 202.666 224 202.666 224 341.332 288 341.332 288 202.666 512 202.666 512 138.666 288 138.666"></polygon>
+            <g id="Group" transform="translate(311.652000, 230.028000)" fill="#0052B4">
+                <polygon id="Path" points="82.133 0 200.348 65.676 200.348 0"></polygon>
+                <polygon id="Path" points="-5.68434189e-14 0 200.348 111.304 200.348 79.83 56.655 0"></polygon>
+                <polygon id="Path" points="146.982 111.304 -5.68434189e-14 29.64 -5.68434189e-14 111.304"></polygon>
+            </g>
+            <polygon id="Path" fill="#F0F0F0" points="311.652 230.028 512 341.332 512 309.858 368.307 230.028"></polygon>
+            <polygon id="Path" fill="#D80027" points="311.652 230.028 512 341.332 512 309.858 368.307 230.028"></polygon>
+            <g id="Group" transform="translate(0.000000, 230.026000)" fill="#0052B4">
+                <polygon id="Path" points="90.341 0 0 50.19 0 0"></polygon>
+                <polygon id="Path" points="200.348 14.154 200.348 111.305 25.491 111.305"></polygon>
+            </g>
+            <polygon id="Path" fill="#D80027" points="143.693 230.028 0 309.858 0 341.332 0 341.332 200.348 230.028"></polygon>
+            <g id="Group" transform="translate(0.000000, 0.000000)" fill="#0052B4">
+                <polygon id="Path" points="118.215 111.304 0 45.628 0 111.304"></polygon>
+                <polygon id="Path" points="200.348 111.304 0 -2.84217094e-14 0 31.474 143.693 111.304"></polygon>
+                <polygon id="Path" points="53.366 -2.84217094e-14 200.348 81.664 200.348 -2.84217094e-14"></polygon>
+            </g>
+            <polygon id="Path" fill="#F0F0F0" points="200.348 111.304 0 1.42108547e-14 0 31.474 143.693 111.304"></polygon>
+            <polygon id="Path" fill="#D80027" points="200.348 111.304 0 1.42108547e-14 0 31.474 143.693 111.304"></polygon>
+            <g id="Group" transform="translate(311.652000, 0.001000)" fill="#0052B4">
+                <polygon id="Path" points="110.007 111.305 200.348 61.115 200.348 111.305"></polygon>
+                <polygon id="Path" points="-5.68434189e-14 97.151 -5.68434189e-14 1.42108547e-14 174.857 1.42108547e-14"></polygon>
+            </g>
+            <polygon id="Path" fill="#D80027" points="368.307 111.304 512 31.474 512 1.42108547e-14 512 1.42108547e-14 311.652 111.304"></polygon>
+        </g>
+    </g>
+</svg>
