@@ -48,7 +48,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseMiddleware<RateLimitingMiddleware>();
+//app.UseMiddleware<RateLimitingMiddleware>();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(

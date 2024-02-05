@@ -29,6 +29,9 @@ namespace CybergAgency.Controllers
         {
             var pathWithQuery = _httpContextAccessor.HttpContext.Request.PathBase + _httpContextAccessor.HttpContext.Request.Path + _httpContextAccessor.HttpContext.Request.QueryString;
 
+            
+
+
             ViewBag.Query = pathWithQuery.ToUpper();
 
             try
@@ -80,6 +83,13 @@ namespace CybergAgency.Controllers
                 return View();
             }
         }
+
+        [Route("/countries")]
+        public IActionResult Countries()
+        {
+            return View();
+        }
+
 
         public IActionResult PrivacyPolicy()
         {

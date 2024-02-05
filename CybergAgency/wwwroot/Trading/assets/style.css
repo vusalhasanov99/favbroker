@@ -309,6 +309,11 @@ Footer
 }
     
 }
+
+
+.col-mobile-deposit img {
+    width: 32px !important;
+}
 @media screen and (max-width: 325px) {
     .orange-cta {font-size: 15px;}
 }
