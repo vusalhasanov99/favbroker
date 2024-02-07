@@ -247,7 +247,15 @@ ol.advantages {padding-left:22px;}
     .col-logo {width: auto;float: none;padding-right: 20px;border-right: 1px solid rgb(207, 220, 240);margin-right: 20px;display: flex;flex-wrap: wrap;flex-direction: row;align-items: center;justify-content: center;}
     .col-features {    margin-right: 20px;width:75%}
     .col-features li {padding-left: 30px;text-align: left;margin-bottom: 15px;}
-    .col-features li:before {content:""; background: url(../img/feature-check.svg) no-repeat 0 0 transparent; position: absolute; width: 20px; height: 20px; left: 0; top: 3px}
+        .col-features li:before {
+            content: "";
+            background: url(/Trading/assets/images/feature-check.svg) no-repeat 0 0 transparent;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 0;
+            top: 3px
+        }
     .broker-card-extras {margin:-14px 0 40px 0;display: flex; justify-content: space-around;align-items: center;}
     .sep {width: 1px; height:20px; background: #cbd7ee}
 }
