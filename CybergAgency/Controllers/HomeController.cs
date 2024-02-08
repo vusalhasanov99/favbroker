@@ -99,6 +99,11 @@ namespace CybergAgency.Controllers
         {
             return View();
         }
+        [Route("/partnerwithus")]
+        public IActionResult PartnerWithUs()
+        {
+            return View();
+        }
         public IActionResult Advertising()
         {
             return View();

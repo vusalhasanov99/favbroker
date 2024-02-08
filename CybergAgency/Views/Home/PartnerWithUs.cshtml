@@ -1,0 +1,179 @@
+﻿
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#000">
+    <title>Fav Broker Selections for Every Country - Favbroker.com</title>
+    <meta name="description"
+          content="Discover the Fav Brokers tailored for your country. Expert reviews, reliable choices. Click to explore!">
+    <meta name="keywords" content="company, business, products, services">
+    <meta name="author" content="Favbroker AI">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="~/Trading/assets/images/fav-icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
+    <link rel="stylesheet" href="~/Trading/assets/partner.css">
+    <link rel="stylesheet" href="~/Trading/assets/tailwind.css">
+</head>
+<body class=""
+      data-clientside-data="eyJicmVhZGNydW1icyI6W3sidXJsIjoiaHR0cHM6XC9cL2Jyb2tlcmNob29zZXIuY29tIiwibGFiZWwiOiJIb21lIn0seyJ1cmwiOiJodHRwczpcL1wvYnJva2VyY2hvb3Nlci5jb21cL2Zvci1idXNpbmVzc2VzIiwibGFiZWwiOiJGb3IgYnVzaW5lc3NlcyJ9XSwiYWJUZXN0cyI6eyJncmVlbl9yZXZpZXdfYmF0Y2hfMyI6eyJydW5uaW5nVmFyaWFudE5hbWUiOiJuZXcifSwiMjAyMy0wMS0yMC1mbWItYXNzZXQtcXVlc3Rpb24taW4tdGhlLWJlZ2lubmluZyI6eyJydW5uaW5nVmFyaWFudE5hbWUiOiJzaG93LW5ldy1mbG93In0sImdyZWVuX2ZtYl9zYXZlX2Jyb2tlcl9saXN0Ijp7InJ1bm5pbmdWYXJpYW50TmFtZSI6Im9yaWdpbmFsIn0sInB1cnBsZS1leHBlcnRpc2UtYnJva2VyLXNjYWxhYmxlIjp7InJ1bm5pbmdWYXJpYW50TmFtZSI6ImltcHJvdmVkIn0sInB1cnBsZS10b3AyLWV4cGVydGlzZSI6eyJydW5uaW5nVmFyaWFudE5hbWUiOiJpbXByb3ZlZCJ9fSwiYnJva2Vyc0F2YWlsYWJsZUluQ291bnRyeSI6WzUsNjIsMTMsNjQsMTg0LDEyOSwxMiw2OCw3MCwxNTYsMTM3LDI4LDExLDE0NSwxMjYsMTA3LDEwNiwxMDgsMTQ0LDE0Myw5NiwxMjgsMTMzLDE4MCwxMDQsMTM5LDE4MSwxNjMsMTIxLDE3MSwxOTYsMTkxLDE1MCwxNDAsMTc1LDE0MiwxMDksMTk3LDE1NSw4MCwxOSwxNDcsMTUzLDE2MCw4NiwxNjldLCJjaGFwdGVycyI6W10sImNvdW50cnlJZCI6MTQsImNvdW50cnlOYW1lIjoiQXplcmJhaWphbiIsImxhbmd1YWdlQ29kZSI6ImVuIiwibWVhc3VyZW1lbnRQYWdlQ2F0ZWdvcnkiOiIwMWNhdGVtZVwvMDJub3RyZWxcLzAzbm90cmVsIiwicGFnZUNhdGVnb3J5SWQiOjEsInBhZ2VQYXRoIjoiZm9yLWJ1c2luZXNzZXMiLCJwYWdlT3JpZ2luIjoiaHR0cHM6XC9cL2Jyb2tlcmNob29zZXIuY29tIiwic2hvdWxkU2hvd0NoYXRXaWRnZXQiOmZhbHNlLCJjaGF0RXZlbnROYW1lIjpudWxsLCJjaGF0RXZlbnREZWxheSI6MCwiZW1haWwiOm51bGwsInVzZXIiOm51bGwsInNhdmVkUHJvdmlkZXJJZHMiOltdLCJudW1iZXJPZlVucmVhZE5vdGlmaWNhdGlvbnMiOjB9">
+
+    <header id="top" class="w-full flex flex-col fixed sm:relative z-50 bg-white shadow-cmn">
+        <div class="container mx-auto">
+            <nav id="site-menu"
+                 class="bg-white flex flex-col sm:flex-row w-full justify-between items-center px-6 lg:px-24">
+                <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
+                    <a asp-controller="Home" asp-action="Index" class="no-underline py-3 lg:py-5">
+                        <img src="~/Trading/assets/images/favbroker-logo.svg" alt="Fav Broker ai" style="width:150px;">
+                    </a>
+                    <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button"
+                            onclick="navToggle();">
+                        <span class="hamburger__top-bun"></span>
+                        <span class="hamburger__middle-bun"></span>
+                        <span class="hamburger__bottom-bun"></span>
+                    </button>
+                </div>
+                <div id="menu"
+                     class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row lg:items-center h-full pt-2 lg:pt-0 pb-4 sm:py-0 sm:pb-0 hidden">
+                    <div class="relative border-b lg:border-none py-5 group border-sapphire/20 w-full menu-dropdown lg:px-12">
+                        <div class="flex lg:inline-block items-center justify-between dropdown-btn">
+                            <p class="text-lg lg:group-hover:text-spainishOrange whitespace-nowrap font-bold cursor-default">
+                                Compare
+                                Brokers
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 class="block lg:hidden transform origin-center dropdown-arw" width="13" height="8"
+                                 viewBox="0 0 13 8" fill="none">
+                                <path d="M12.4341 1.22279L6.65687 7.00001L1.00002 1.34315" stroke="black"
+                                      stroke-opacity="0.5" />
+                            </svg>
+                        </div>
+                        <div class="lg:absolute -left-32 top-[70px] transition delay-100 bg-white hidden flex-col lg:flex-row gap-2.5 lg:gap-12 lg:shadow-menu lg:px-10 py-4 lg:py-8 rounded-b-2xl lg:group-hover:flex dropdown-box">
+                            <div class="w-full lg:w-52">
+                                <a href="/uae" class="flex items-center gap-3">
+                                    <div class="fib fi-ae w-11 h-8 rounded-lg flex-shrink-0"></div>
+                                    <span class="leading-4">United Arab Emirates</span>
+                                </a>
+                            </div>
+                            <div class="w-full lg:w-52">
+                                <a href="/qatar"
+                                   class="flex items-center gap-3">
+                                    <div class="fib fi-qa w-10 rounded-md aspect-[4/3]"></div>
+                                    <span class="leading-4">Qatar</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative border-b lg:border-none lg:px-12 py-5 group border-sapphire/20 w-full  menu-dropdown hidden">
+                        <div class="flex lg:inline-block items-center justify-between dropdown-btn">
+                            <p class="text-lg lg:group-hover:text-spainishOrange whitespace-nowrap font-bold cursor-default">
+                                Broker
+                                Reviews
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 class="block lg:hidden transform origin-center dropdown-arw" width="13" height="8"
+                                 viewBox="0 0 13 8" fill="none">
+                                <path d="M12.4341 1.22279L6.65687 7.00001L1.00002 1.34315" stroke="black"
+                                      stroke-opacity="0.5" />
+                            </svg>
+                        </div>
+                        <div class="lg:absolute -left-32 top-[70px] transition delay-100 bg-white hidden flex-col lg:flex-row gap-2.5 lg:gap-12 lg:shadow-menu lg:px-10 py-4 lg:py-8 rounded-b-2xl lg:group-hover:flex dropdown-box">
+                            <div class="w-full lg:w-52">
+                                <a href="#" class="flex items-center gap-4">
+                                    <img src="~/Trading/assets/images/borkers/interactive.svg" class="flex-shrink-0"
+                                         alt="Interactive Brokers review">
+                                    <span class="leading-4">Interactive Brokers review</span>
+                                </a>
+                                <a href="#" class="flex items-center gap-4 mt-2.5">
+                                    <img src="~/Trading/assets/images/borkers/etoro.svg" class="flex-shrink-0"
+                                         alt="Interactive Brokers review">
+                                    <span class="leading-4">eToro review</span>
+                                </a>
+                                <a href="#" class="flex items-center gap-4 mt-2.5">
+                                    <img src="~/Trading/assets/images/borkers/degiro.svg" class="flex-shrink-0"
+                                         alt="Interactive Brokers review">
+                                    <span class="leading-4">DEGIRO review</span>
+                                </a>
+                                <a href="#" class="flex items-center gap-4 mt-2.5">
+                                    <img src="~/Trading/assets/images/borkers/xtb.svg" class="flex-shrink-0"
+                                         alt="Interactive Brokers review">
+                                    <span class="leading-4">XTB review</span>
+                                </a>
+                            </div>
+                            <div class="w-full lg:w-52">
+                                <a href="#" class="flex items-center gap-4">
+                                    <img src="~/Trading/assets/images/borkers/saxo.svg" class="flex-shrink-0"
+                                         alt="Interactive Brokers review">
+                                    <span class="leading-4">Saxo Bank review</span>
+                                </a>
+                                <a href="#" class="flex items-center gap-4 mt-2.5">
+                                    <img src="~/Trading/assets/images/borkers/alpaca.svg" class="flex-shrink-0"
+                                         alt="Interactive Brokers review">
+                                    <span class="leading-4">Alpaca Trading review</span>
+                                </a>
+                                <a href="#" class="flex items-center gap-4 mt-2.5">
+                                    <img src="~/Trading/assets/images/borkers/fineco.svg" class="flex-shrink-0"
+                                         alt="Interactive Brokers review">
+                                    <span class="leading-4">Fineco Bank review</span>
+                                </a>
+                                <a href="#"
+                                   class="flex underline text-apple font-extrabold mt-5">
+                                    All
+                                    reviews
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="text-lg lg:hover:text-spainishOrange font-bold py-5 w-full no-underline"
+                    asp-action="PartnerWithUs">
+                        Partner
+                        with us
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="for-businesses-container">
+
+
+        <div class="leveraging">
+        </div>
+
+        <div class="get-in-touch">
+            <div class="get-in-touch-content">
+                <div class="sub-title">CONTACT US</div>
+                <h1>Would you like to join us?</h1>
+                <p>Get in touch with us by email to start laying out partnership opportunities. </p>
+            </div>
+            <div class="get-in-touch-button">
+                <a class="bc_button bc_button__secondary " href="/cdn-cgi/l/email-protection#92e2f3e0e6fcf7e0e1fafbe2e1d2f0e0fdf9f7e0f1fafdfde1f7e0bcf1fdff">
+                    keep in touch with this email
+                </a>
+            </div>
+            <img class="contact-img" src="https://brokerchooser.com/images/for_businesses/paper_plane.svg" />
+        </div>
+    </div>
+    <footer class="bg-sapphire" style="position: fixed; width: 100%; bottom: 0;">
+        <div class="container mx-auto py-5">
+            <div class="flex flex-col lg:flex-row items-center gap-4 lg:gap-0 justify-center lg:justify-between w-10/12 mx-auto">
+                <a asp-action="Index">
+                    <img src="~/Trading/assets/images/favbroker-logo-white.svg" alt="Favbroker AI" style="width:150px;">
+                </a>
+                <p class="text-white">
+                    Favbroker.com - © 2024 <span class="block lg:inline">
+
+                    </span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="~/Trading/assets/script.js"></script>
+   
+</body>
+</html>
