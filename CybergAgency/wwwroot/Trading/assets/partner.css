@@ -1013,7 +1013,7 @@
         width: auto;
         padding-top: 0;
         justify-content: flex-end;
-        height: 350px
+        height: 380px;
     }
 }
 
@@ -1028,12 +1028,12 @@
 }
 
     .for-businesses-container .get-in-touch .get-in-touch-button .bc_button {
-        width: 400px
+  /*      width: 400px*/
     }
 
 @media (max-width: 992px) {
     .for-businesses-container .get-in-touch .get-in-touch-button .bc_button {
-        width: 300px
+  /*      width: 300px*/
     }
 }
 
